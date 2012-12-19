@@ -1,0 +1,27 @@
+= RaphaelBars
+
+Easy implementation for x and y axis for stacked and non stacked bar charts for Raphael.
+
+== Usage
+
+ paper.barchart(x, y, width, height, values, opts).drawXAxis( xAxisLabels, axisOpts).drawYAxis( yAxisLabels, minY, maxY, axisOpts);
+
+=== axisOpts
+
+ { stacked: true, attr: { font:"9px Arial", fill:"#000", "font-weight": "regular" }
+
+Stacked is false by default.
+
+== To-Do
+
+Make the Y-axis completely dynamic and test it too.
+
+== Contributing
+
+ 1. Fork it
+ 2. Create your feature branch (`git checkout -b my-new-feature`)
+ 3. Commit your changes (`git commit -am 'Added some feature'`)
+ 4. Push to the branch (`git push origin my-new-feature`)
+ 5. Create new Pull Request
+
+<b>Thank you !</b>
