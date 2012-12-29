@@ -8,7 +8,13 @@ Easy implementation for x and y axis for stacked and non stacked bar charts for 
 
 === axisOpts
 
- { stacked: true, attr: { font:"9px Arial", fill:"#000", "font-weight": "regular" }
+axisOpts is used above.
+
+Below is an example of attributes you can pass in the axisOpts object.
+
+Rotate is the amount of degrees you wish to rotate the text on X-Axis in Integer. You can pass in negative values too.
+
+ { stacked: true, attr: { font:"9px Arial", fill:"#000", "font-weight": "regular"}, rotate: 90 }
 
 Stacked is false by default.
 
